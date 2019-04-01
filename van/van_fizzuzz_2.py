@@ -5,7 +5,7 @@
 - Otherwise, it should return the same number.
 """
 
-def fizz_buss (a):
+def fizz_buzz (a):
     if a == 0 or type(a) != int:
         return 0
     else:
@@ -20,10 +20,10 @@ def fizz_buss (a):
             return 'Null'
 
 
-print(fizz_buss(24))
-print(fizz_buss(13))
-print(fizz_buss(15))
-print(fizz_buss(9))
-print(fizz_buss(20))
-print(fizz_buss(0))
-print(fizz_buss('string'))
+print(fizz_buzz(24))
+print(fizz_buzz(13))
+print(fizz_buzz(15))
+print(fizz_buzz(9))
+print(fizz_buzz(20))
+print(fizz_buzz(0))
+print(fizz_buzz('string'))
