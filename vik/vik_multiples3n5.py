@@ -10,6 +10,5 @@ def multiple():
             j= i+j
         else:
             pass
-#        print "The sum of multiples of 3 and 5 is {}".format(i))
-        print (j) 
+    print (j) 
 multiple()
