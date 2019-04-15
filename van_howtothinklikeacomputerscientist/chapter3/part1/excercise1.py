@@ -4,3 +4,5 @@
 day = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Staturday")
 item = int(input("Enter number from 0 to 6 \n"))
 print(day[item])
+
+
